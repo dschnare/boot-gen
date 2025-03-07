@@ -1,0 +1,13 @@
+{
+  "packages": [
+    "python@latest"
+  ],
+  "env": {
+    "VENV_DIR": "venv"
+  },
+  "shell": {
+    "init_hook": [
+      "source $VENV_DIR/bin/activate"
+    ]
+  }
+}
