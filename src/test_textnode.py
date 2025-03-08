@@ -3,12 +3,12 @@ from textnode import TextNode, TextType
 
 class TestTextNode(unittest.TestCase):
   def test_eq(self):
-    a = TextNode("Hello, world!", TextType.NORMAL, None)
-    b = TextNode("Hello, world!", TextType.NORMAL)
+    a = TextNode("Hello, world!", TextType.TEXT, None)
+    b = TextNode("Hello, world!", TextType.TEXT)
     self.assertEqual(a, b)
 
   def test_ne(self):
-    a = TextNode("Hello, world!", TextType.NORMAL, None)
+    a = TextNode("Hello, world!", TextType.TEXT, None)
     b = TextNode("Hello, world!", TextType.LINK, "https://www.google.com")
     self.assertNotEqual(a, b)
   
