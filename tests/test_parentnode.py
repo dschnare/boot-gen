@@ -1,7 +1,7 @@
 import unittest
-from parentnode import ParentNode
-from leafnode import LeafNode
-from textnode import TextNode, TextType
+from boot_gen.parentnode import ParentNode
+from boot_gen.leafnode import LeafNode
+from boot_gen.textnode import TextNode, TextType
 
 class TestParentNode(unittest.TestCase):
   def test_to_html_no_tag(self):

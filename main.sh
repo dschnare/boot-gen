@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # run the site generator
-python src/main.py
+python -m boot_gen.main

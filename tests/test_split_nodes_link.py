@@ -1,6 +1,6 @@
 import unittest
-from textnode import TextNode, TextType
-from split_nodes_link import split_nodes_link
+from boot_gen.textnode import TextNode, TextType
+from boot_gen.split_nodes_link import split_nodes_link
 
 class TestSplitNodesLink(unittest.TestCase):
   def test_should_not_split_nodes_when_node_is_empty(self):

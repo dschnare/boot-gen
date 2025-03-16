@@ -1,7 +1,7 @@
-from textnode import TextNode, TextType
-from split_nodes_delimiter import split_nodes_delimiter
-from split_nodes_link import split_nodes_link
-from split_nodes_image import split_nodes_image
+from .textnode import TextNode, TextType
+from .split_nodes_delimiter import split_nodes_delimiter
+from .split_nodes_link import split_nodes_link
+from .split_nodes_image import split_nodes_image
 
 def text_to_textnodes(text):
   new_nodes = [TextNode(text, TextType.TEXT)]

@@ -1,6 +1,6 @@
 import unittest
-from text_to_textnodes import text_to_textnodes
-from textnode import TextNode, TextType
+from boot_gen.text_to_textnodes import text_to_textnodes
+from boot_gen.textnode import TextNode, TextType
 
 class TestTextToTextNodes(unittest.TestCase):
   def test_should_handle_empty_text(self):

@@ -1,6 +1,6 @@
 import unittest
-from textnode import TextNode, TextType
-from split_nodes_image import split_nodes_image
+from boot_gen.textnode import TextNode, TextType
+from boot_gen.split_nodes_image import split_nodes_image
 
 class TestSplitNodesImage(unittest.TestCase):
   def test_should_not_split_nodes_when_node_is_empty(self):

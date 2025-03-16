@@ -1,5 +1,5 @@
 import unittest
-from leafnode import LeafNode
+from boot_gen.leafnode import LeafNode
 
 class TestLeafNode(unittest.TestCase):
   def test_to_html_with_tag(self):
